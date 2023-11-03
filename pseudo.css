@@ -1,0 +1,32 @@
+/* pseudoclass */
+
+button:hover{
+    border: 5px dotted grey;
+
+    background-color: blue;
+}
+/* input:focus{
+    background-color: brown;
+    border: 3px solid red;
+} */
+
+
+ /* div p:first-child{
+   background-color: blue;
+}
+p:nth-child(2){
+    color: aqua;
+} */
+
+
+/* pseudoelements */
+/* p::first-letter{
+    color: aqua;
+    font-size: 10px;
+}
+p::selection{
+    color: blue;
+    background-color: brown; */
+p::after{
+    content:' hello ';
+}

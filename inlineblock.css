@@ -1,0 +1,13 @@
+/* p{
+    display: inline-block;
+    color: blue;
+    background-color: violet;
+} */
+div{
+    width: 100px;
+    height: 200px;
+ background-color: black;
+}
+#sample{
+    background-color: brown
+}

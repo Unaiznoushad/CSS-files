@@ -1,0 +1,137 @@
+/* h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aqua;
+} */
+
+/* attribute selector */
+/* h1[class*="-"]{
+    color: blue;
+} */
+/* h1[class$="1"]{
+    color: brown;
+}
+h1[class^="sec"]{
+    color: black;
+} */
+
+/* DIRECT CHILD SELECTOR */
+/* div >  h1{
+    color: blue;
+} */
+
+/* GENERAL SIBLING SELECTOR */
+/* .container ~ div .inside{
+    color: blueviolet;
+} */
+/* ADJCENT SIBLING SELECTOR */
+/* .container+div .inside{
+    color: orange;
+} */
+
+/* NOT SELECTOR */
+/* div:not(.container-1,.container-2){
+    background-color: blue;
+} */
+/* is,where selector */
+/* .inside-1 span,.inside-2 span,.inside-3 span,.inside-4 span{
+    color: chocolate;
+}
+:is(.inside-1,.inside-2,.inside-3,.inside-4) span{
+    color: yellow;
+}  
+:is(.container-1) span{
+    color: purple;
+}   */
+/* :where(.inside-1,.inside-2,.inside-3,.inside-4) span{
+    color: crimson;
+}
+:where(.container-1) span{
+    color: black;
+} */
+
+/* HAS SELECTOR */
+/* h1:has(span){
+    color: aqua;
+}
+h1:has(a){
+    color: blue;
+} */
+
+/* transform new property */
+/* .container-1{
+    border: 1px solid blue;
+    text-align: center;
+    rotate: -20deg;
+    scale: 1.5;
+    /* translate: 500px 200px; */
+/* } */ 
+
+/* LOGICAL PROPERTIES*/
+/* .container-1{
+    outline :1px solid blue;
+    text-align: center;
+    /* margin-inline-start: 30px; */
+    /* margin-inline-end: 30px; */
+    /* margin-block-end: 30px; */
+    /* margin-block-start: 30px; */
+    /* padding-block-start: 30px; */
+
+/* } */ 
+
+/* COUNTER  */
+/* body{
+    counter-reset: heading;
+}
+h1::before{
+    counter-increment: heading;
+    content: "section: "counter(heading)"";
+    font-size: 80px;
+    color: aqua;
+} */
+*{
+    outline: 1px solid blue;
+}
+h1:nth-child(2){
+    width: 700px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+}
+h1{
+    margin: 0;
+    
+}
+.container{
+    background-color: blueviolet;
+    width: 100%;
+    height: 500px; 
+    display: flex;
+    flex-direction: row;
+ justify-content: center;
+    /* justify-content:flex-end; */
+/* justify-content: space-between; */
+/* justify-content: space-around; */
+ /* justify-content: space-evenly; */
+/* height:200px ; */
+/* align-items: center; */
+/* align-items: flex-end;  */
+/* flex-wrap: wrap; */
+
+}
+.one,.two,.three{
+    /* flex: 1; */
+    /* width: 100%; */
+    /* height: 100px; */
+    background-color: blue;
+    border: 2px solid white;
+    text-align: center;
+    height: 50px;
+    /* width:200px; */
+    /* float: right; */
+}
+
+/* .three{
+    float: right;
+}
+footer{
+    background-color: black;
+    clear: both;
+} */
+.two{
+    flex: 1;
+}
+.three{
+    flex:2;
+}
+/* .one{
+    order: 2;
+}
+.two{
+    order: 3;
+}
+.three{
+    order: 1;
+} */

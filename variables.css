@@ -1,0 +1,23 @@
+:root{
+    --b-color:pink;
+    --font-family:"tahoma";
+}
+
+.name{
+    font-family: var(--font-family);    
+    color: blue;
+    background-color: var(--b-color);
+    word-break: break-all;
+}
+.variable{
+    color: red;
+    background-color:var(--b-color);
+}
+.ton{
+    color:orange;
+    background-color:var(--b-color);
+}
+.zen{
+    color: green;
+    background-color:var(--b-color);
+}

@@ -1,0 +1,15 @@
+body{
+    height: 2000px;
+}
+#name{
+    position: relative;
+    top: 500px;
+    right: 0;
+    height: 200px;
+    width: 100px;
+    background-color: indigo;
+    
+
+
+}
+

@@ -1,0 +1,24 @@
+h1{
+    color: blue;
+}
+div h1{
+    color: aqua;
+}
+.name{
+    color: black;
+}
+div .name{
+    color: blueviolet;
+}
+#uni{
+    color: brown;
+}
+div #uni{
+    color: yellow;
+}
+#uni{
+    color:red !important
+}
+div #uni{
+    color:black !important;
+}
